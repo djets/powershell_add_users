@@ -1,4 +1,6 @@
-﻿Add-Type -AssemblyName System.Windows.Forms
+﻿#K.V.Yankovich 2024
+
+Add-Type -AssemblyName System.Windows.Forms
 Function Select-File {
     param (
         [Parameter (Mandatory=$true)]
